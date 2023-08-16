@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    background-color: #C91619;
+    padding-top: 10px;
+    background-image: url(midia/background-01.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+}
+#espaço1{
+    margin-right: 60px;
+}
+#espaço2{
+    padding-left: 120px;
+}
+nav{
+    padding: 0px 15px;
+    font-size: 16.5px;
+}
+#navs{
+    padding-left: 23px;
+}
+#city-logo{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 5%;
+    margin: auto;
+}
+/* - - - - - Main - - - - - */
+#inclui{
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius:8px;
+    background-color: #ffb820e8;
+    box-shadow: rgba(0, 0, 0, 0.400) 1px 1px 10px;
+    width: 86%;
+    position: absolute;
+    left: 6%;
+}
+#inclui img,p{
+    display: inline;
+}
+#inclui p{
+    margin-right: 30px;
+    color: #222222;
+    margin-left: 
+    35px;
+}
+#inclui img{
+    margin-right: 15px;
+}
+#vermelho #carouselExampleAutoplayin{
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+#carousel img{
+    box-shadow: rgba(0, 0, 0, 0.400) 1px 1px 10px;
+}
+#main-text{
+    padding: 30px 0px;
+    margin: 0px 10px;
+}
+#produto{
+    padding: 8px;
+    margin: 25px 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgba(233, 230, 230, 0.925);
+    box-shadow: rgba(0, 0, 0, 0.096) 1px 1px 10px;
+    width: 200px;
+    display: inline-block;
+}
+section img{
+    width: 165px;
+}
+section h4{
+    font-size: 17px;
+    margin-top: 8px;
+}
+#produto img{
+    border-radius: 3px;
+}
+#produto a{
+    margin-top: 5px;
+}
+#pedir{
+    margin-top: 10px;
+}
+@media (max-width: 510px){
+    #produto{
+        width: 115px;
+    }
+    #produto img{
+        width: 100px;
+    }
+}
+article div{
+    margin: 30px;
+}
+article img{
+    width: 40px;
+}
+article p{
+    color: #888888;
+    font-size: 13px;
+}
+article h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+@media (max-width: 632px){
+    #sobre{
+        margin: 20px;
+    }
+    #sobre img{
+        width: 40px;
+    }
+    #sobre h5{
+        font-size: 12px;
+        color:#888888;
+    }
+    article div{
+        width: 85px;
+    }
+    article img{
+        width: 50px;
+    }
+}
+#maps{
+    margin: 25px 0px;
+}
+#endereco{
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+@media (max-width:900px){
+    #maps iframe{
+        width: 60%;
+        height: 20%;
+    }
+    #endereco{
+        font-size: 12px;
+        width: 150px;
+        }
+    #diminuir{
+        margin: 10px;
+        width: 350px;
+        font-size: 14px;
+    }
+}
+footer{
+    background-color: #222222;
+    padding: 50px;
+}
+footer p,a{
+    color: #9caea1de;
+    font-size: 12px;
+}
+footer a{
+    text-decoration: underline;
+    color: rgba(255, 166, 0, 0.733);
+}
+
